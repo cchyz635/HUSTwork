@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.music-container {
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.10);
+    padding: 32px 28px 24px 28px;
+    margin-top: 48px;
+    width: 340px;
+    text-align: center;
+}
+
+.music-title {
+    font-size: 1.6em;
+    color: #ff6f91;
+    margin-bottom: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.music-list {
+    list-style: "🎵 ";
+    padding-left: 24px;
+    margin-bottom: 28px;
+    color: #444;
+    font-size: 1.08em;
+    text-align: left;
+}
+
+.soft-title {
+    font-size: 1.15em;
+    color: #9c27b0;
+    margin-bottom: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.music-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.music-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 18px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+    background: #fff;
+    margin-bottom: 8px;
+}
+
+.music-app-label {
+    font-size: 1em;
+    color: #555;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 32px;
+    padding: 8px 24px;
+    background: #205080;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background 0.2s;
+}
+
+.back-btn:hover {
+    background: #2a6bbf;
+}
